@@ -1,0 +1,12 @@
+.slider {
+  flex: 0.5;
+}
+
+.display {
+  color: #999999;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 13px;
+}

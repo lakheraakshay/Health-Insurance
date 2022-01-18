@@ -1,0 +1,113 @@
+.searchScreen {
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchLeft {
+  padding: 20px;
+  flex: 0.5;
+  height: max-content;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.buttons > button {
+  height: 32px;
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 3px;
+  background-color: #da3214;
+  margin: 5px 0;
+  width: 100px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.buttons > button:hover {
+  background-color: black;
+}
+
+.searchRight {
+  flex: 0.4;
+  background-color: white;
+  height: max-content;
+}
+
+.searchRight > img {
+  width: 100%;
+  padding: 10px;
+}
+
+.searchRight > p {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.finalForm > p {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  text-align: center;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  justify-content: space-between;
+}
+
+.field > p {
+  flex: 0.5;
+}
+
+.field > input {
+  color: #999;
+  padding: 8px 15px 8px 19px;
+  border: 2px solid #ebebeb;
+  height: 45px;
+  border-radius: 2px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  flex: 0.5;
+  outline: none;
+}
+
+.field > input:focus {
+  border: 2px solid #da3214;
+}
+
+.field > div {
+  flex: 0.5;
+}
+
+@media (max-width: 760px) {
+  .searchScreen {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .searchLeft {
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+
+  .buttons > button {
+    margin: 5px 2px;
+  }
+}

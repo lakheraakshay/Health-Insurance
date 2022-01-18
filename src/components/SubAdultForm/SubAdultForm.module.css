@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.form > p {
+  flex: 0.5;
+}
+
+.fields {
+  flex: 0.5;
+}
+
+.genders {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.genders > div {
+  display: flex;
+  align-items: center;
+}
+
+.genders > div > input {
+  margin-right: 10px;
+}
+
+.genders > div > p{
+    font-size: 13px;
+}
+
+.formOne > p {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.formTwo > p {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
