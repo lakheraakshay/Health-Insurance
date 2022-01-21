@@ -1,0 +1,36 @@
+.accordion {
+  width: 100%;
+  padding: 5px 7px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.accordionTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.accordionTop > div {
+  font-size: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
+.contentSpace {
+  transition: max-height 0.7s ease-in-out;
+  overflow: hidden;
+}
+
+.accordionTop > i {
+  transition: 0.7s ease;
+  font-size: 13px;
+  color: #da3214;
+}
+
+.innerContent {
+  padding: 10px 15px;
+  border-top: 2px solid #f1f1f1;
+}

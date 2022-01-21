@@ -1,0 +1,46 @@
+.modal {
+  min-width: 500px;
+}
+
+.mainModal {
+  padding: 15px;
+  width: 100%;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cellRight {
+  flex: 0.5;
+  border-right: 1px solid #bfbfbf;
+  padding: 10px;
+  border-top: 1px solid #eceeef;
+}
+
+.cellLeft {
+  flex: 0.5;
+  border-right: 1px solid #bfbfbf;
+  border-left: 1px solid #bfbfbf;
+  padding: 10px;
+  border-top: 1px solid #eceeef;
+}
+
+.cellLeft > p,
+.cellRight > p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.cell:nth-child(1),
+.cell:nth-child(3),
+.cell:nth-child(5),
+.cell:nth-child(7) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.cell:last-child {
+  border-bottom: 1px solid #eceeef;
+}

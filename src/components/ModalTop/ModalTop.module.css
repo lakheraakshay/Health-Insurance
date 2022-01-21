@@ -1,0 +1,27 @@
+.modalTop {
+  display: flex;
+  align-items: center;
+  background-color: #da3214;
+  padding: 20px 10px;
+  justify-content: space-between;
+}
+
+.modalTop > div {
+  font-weight: 600;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 20px;
+  flex: 1;
+}
+
+.modalTop > div > p {
+  text-align: center;
+}
+
+.modalTop > i {
+  justify-self: flex-end;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
